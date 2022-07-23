@@ -18,6 +18,7 @@ const defaultOptions = withBundleAnalyzer({
       'repository-images.githubusercontent.com',
       'www.gravatar.com',
       'github.githubassets.com',
+      'takwen-cs.fly.dev',
       ...(process.env.IMAGE_DOMAINS || '').split(','),
     ],
   },

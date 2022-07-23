@@ -396,6 +396,7 @@ html.casper .nav li {
     display: block;
     margin: 0;
     padding: 0;
+    margin: 0 0 0 2.5vmin;
 }
 
 html.casper .nav li a {
@@ -446,10 +447,11 @@ html.casper .nav-post-title {
     opacity: 0;
     transition: all 1.0s cubic-bezier(0.19, 1, 0.22, 1);
     transform: translateY(175%);
+    right: 25px;
 }
 
 html.casper .nav-post-title.dash {
-    left: -25px;
+    right: -25px;
 }
 
 html.casper .nav-post-title.dash:before {
@@ -566,6 +568,8 @@ html.casper .rss-button svg {
 
 html.casper .home-template .site-nav-main {
     z-index: 100;
+    margin-left: 0;
+    margin-right: -2.5vmin;
 }
 
 html.casper .home-template .site-nav-main .site-nav {
@@ -688,12 +692,13 @@ html.casper .post-card-content {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    margin: 0 8px 0 0;
 }
 
 html.casper .post-card-excerpt {
     max-width: 56em;
     color: color-mod(var(--midgrey) l(-8%));
-    font-family: Georgia, serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;
 }
 
 html.casper .post-card-excerpt p {
@@ -726,7 +731,7 @@ html.casper .author-list {
     display: flex;
     flex-wrap: wrap;
     margin: 0 0 0 4px;
-    padding: 0;
+    padding: 0 0 0 12px;
     list-style: none;
 }
 
@@ -781,7 +786,7 @@ html.casper .post-card-byline-content {
     flex: 1 1 50%;
     display: flex;
     flex-direction: column;
-    margin: 2px 0 0 6px;
+    margin: 0 8px 0 0;
     color: color-mod(var(--midgrey) l(-7%));
     font-size: 1.2rem;
     line-height: 1.4em;
@@ -986,7 +991,7 @@ html.casper .post-full-title {
 html.casper .post-full-custom-excerpt {
     margin: 20px 0 0;
     color: var(--midgrey);
-    font-family: Georgia, serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;
     font-size: 2.3rem;
     line-height: 1.4em;
     font-weight: 300;
@@ -1019,7 +1024,7 @@ html.casper .post-full-content {
     margin: 0 auto;
     padding: 0 170px 6vw;
     min-height: 230px;
-    font-family: Georgia, serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;
     font-size: 2.0rem;
     line-height: 1.6em;
     background: #fff;
@@ -2739,7 +2744,7 @@ html.casper .subscribe-overlay-description {
     margin: 0 auto 50px;
     max-width: 650px;
     color: #fff;
-    font-family: Georgia, serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;
     font-size: 2.4rem;
     line-height: 1.3em;
     font-weight: 300;
@@ -2853,7 +2858,7 @@ html.casper .site-footer-nav {
 
 html.casper .site-footer-nav a {
     position: relative;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 html.casper .site-footer-nav a:before {
